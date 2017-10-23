@@ -21,7 +21,10 @@ nohup java -jar bin/spring-erp-admin.jar 1>/dev/null 2/dev/null &
 Run the following command to start the angular server at port 8080 for the spring-erp-buyer web server.
 
 ```bash
+sudo yum install -y nodejs
+sudo npm install -g @angular/cli
 cd ng4-erp
+npm install
 ng serve --proxy-config proxy.conf.json --host 0.0.0.0 --disable-host-check --port 8080
 ```
 
