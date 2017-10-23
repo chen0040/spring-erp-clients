@@ -7,11 +7,18 @@
 # BlueJ files
 *.ctxt
 
+.idea/
+*.iml
+
+bin/*.jar
+
+ng4-erp/node_modules
+
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.zip
